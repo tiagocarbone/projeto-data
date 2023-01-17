@@ -61,7 +61,7 @@ h1.innerHTML = `${nomeDia}, ${dia} de ${nomeMes} de ${ano} - ${zeroAEsquerda(h)}
 setTimeout('time()',500);
 }
 
-time()
+
 
 
 /*
