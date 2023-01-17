@@ -29,7 +29,7 @@ function criaData(){
 
 
 function getDiaSemanaTexto (diaSemana){
-    const diasSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','sabado']
+    const diasSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira','Sábado']
     return diasSemana[diaSemana]
 }
 
@@ -61,7 +61,7 @@ h1.innerHTML = `${nomeDia}, ${dia} de ${nomeMes} de ${ano} - ${zeroAEsquerda(h)}
 setTimeout('time()',500);
 }
 
-
+time()
 
 
 /*
