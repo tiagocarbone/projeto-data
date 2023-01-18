@@ -44,8 +44,7 @@ function zeroAEsquerda(num) {
     return num >= 10 ? num : `0${num}`
 }
 
-function time()
-{
+function time(){
 const h1 = window.document.querySelector('.container h1')
 today = new Date();
 const diaSemana = today.getDay()
@@ -58,7 +57,7 @@ s = today.getSeconds();
 dia = today.getDate();
 ano = today.getFullYear()
 h1.innerHTML = `${nomeDia}, ${dia} de ${nomeMes} de ${ano} - ${zeroAEsquerda(h)}:${zeroAEsquerda(m)}:${zeroAEsquerda(s)} `
-setTimeout('time()',500);
+setTimeout(time, 500);
 }
 
 
